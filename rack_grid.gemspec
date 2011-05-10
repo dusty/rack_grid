@@ -12,7 +12,6 @@ Gem::Specification.new do |s|
     "lib/rack_grid.rb",
     "test/test_rack_grid.rb"
   ]
-  s.has_rdoc = true
   s.extra_rdoc_files = ["README.txt"]
   s.add_dependency('mongo')
   s.rubyforge_project = "none"
