@@ -1,7 +1,7 @@
 Rack::Grid
 
   Rack::Grid is used to serve a GridFS file from rack.
-  Especially useful combined with Mongoid::Grid or MongoODM::Grid
+  Especially useful combined with mongoid_grid or matic_grid
 
 Installation
 
@@ -19,7 +19,7 @@ Usage Example with Sinatra.
       :password => 'pass',     # Optional MongoDB Password
       :prefix => 'grid',       # URL Prefix (eg: /grid/xxxxxxx/file.ext)
       :cache_control => {
-        :max_age => 300,
+        :max_age => 300
       },                       # Cache Control setting
       :database => 'mydb'      # Required database name
     }
