@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "rack_grid"
-  s.version = "0.0.2"
+  s.version = "0.0.3"
   s.author = "Dusty Doris"
   s.email = "github@dusty.name"
   s.homepage = "http://github.com/dusty/rack_grid"

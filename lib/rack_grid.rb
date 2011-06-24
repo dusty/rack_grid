@@ -58,7 +58,7 @@ module Rack
         'Cache-Control' => cache_control_header,
       }
       if not_modified?( etag, last_modified )
-        [304, headers, 'Not Modified']
+        [304, headers, ['Not Modified']]
       else
         [200, headers.update('Content-Type' => file.content_type), [file.read]]
       end
