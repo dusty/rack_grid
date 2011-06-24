@@ -18,7 +18,9 @@ Usage Example with Sinatra.
       :username => 'user',     # Optional MongoDB Username
       :password => 'pass',     # Optional MongoDB Password
       :prefix => 'grid',       # URL Prefix (eg: /grid/xxxxxxx/file.ext)
-      :cache_control => 300,   # Cache Control setting
+      :cache_control => {
+        :max_age => 300,
+      },                       # Cache Control setting
       :database => 'mydb'      # Required database name
     }
   end
