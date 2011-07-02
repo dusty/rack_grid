@@ -35,7 +35,7 @@ module Rack
 
     ##
     # Strip the _id out of the path.  This allows the user to send something
-    # like /grid/4ba69fde8c8f369a6e000003/filename.jpg to find the file
+    # like /#{prefix}/4ba69fde8c8f369a6e000003.jpg to find the file
     # with an id of 4ba69fde8c8f369a6e000003.
     def call(env)
       @env = env
