@@ -1,5 +1,7 @@
 Rack::Grid
 
+  NOTE: Check out rack-gridfs, as it is better maintained (http://github.com/skinandbones/rack-gridfs)
+
   Rack::Grid is used to serve a GridFS file from rack.
   Especially useful combined with mongoid_grid or matic_grid
 
@@ -29,5 +31,3 @@ Usage Example with Sinatra.
   <img src="/grid/4ba69fde8c8f369a6e000003/filename.jpg" alt="My Image" />
 
 
-Inspired by
-  http://github.com/skinandbones/rack-gridfs
